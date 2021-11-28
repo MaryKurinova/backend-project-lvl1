@@ -26,6 +26,6 @@
 
 Суть игры в следующем: пользователю показывается случайное число. Необходимо ответить <i>yes</i>, если число чётное, или <i>no</i> — если нечётное:
 
-<a href="https://asciinema.org/a/zZ7lJctzfEZ2TNrXASibY7lQa" target="_blank"><img src="https://asciinema.org/a/zZ7lJctzfEZ2TNrXASibY7lQa.svg" /></a>
+[![asciicast](https://asciinema.org/a/zZ7lJctzfEZ2TNrXASibY7lQa.svg)](https://asciinema.org/a/zZ7lJctzfEZ2TNrXASibY7lQa)
 
 
