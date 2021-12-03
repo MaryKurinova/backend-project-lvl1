@@ -41,3 +41,11 @@
 [![asciicast](https://asciinema.org/a/SGvl4Hf6EfFFyfxSrHAFB3bKX.svg)](https://asciinema.org/a/SGvl4Hf6EfFFyfxSrHAFB3bKX)
 
 
+✓ <i>"Арифметическая прогрессия"</i>
+
+Показываем игроку ряд чисел, образующий арифметическую прогрессию, заменив любое из чисел двумя точками. Игрок должен определить это число.
+
+Рекомендуемая длина прогрессии – 10 чисел. Длина может генерироваться случайным образом, но должна содержать не менее 5-ти чисел!
+Позиция спрятанного элемента каждый раз изменяется (выбирается случайным образом).
+
+[![asciicast](https://asciinema.org/a/agLQxXoxHsfVtKYFjVlBsaFUc.svg)](https://asciinema.org/a/agLQxXoxHsfVtKYFjVlBsaFUc)
