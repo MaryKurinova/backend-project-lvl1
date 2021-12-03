@@ -34,4 +34,10 @@
 
 [![asciicast](https://asciinema.org/a/aKbZhusZua9Tu1QO30jvDAbEL.svg)](https://asciinema.org/a/aKbZhusZua9Tu1QO30jvDAbEL)
 
+✓ <i>"Наибольший общий делитель (НОД)"</i>
+
+ Суть игры в следующем: пользователю показывается два случайных числа, например, 25 50. Пользователь должен вычислить и ввести наибольший общий делитель этих чисел.
+
+[![asciicast](https://asciinema.org/a/SGvl4Hf6EfFFyfxSrHAFB3bKX.svg)](https://asciinema.org/a/SGvl4Hf6EfFFyfxSrHAFB3bKX)
+
 
