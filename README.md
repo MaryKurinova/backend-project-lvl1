@@ -28,4 +28,10 @@
 
 [![asciicast](https://asciinema.org/a/fj1ZnVthJxpz3Thdbbiierj3v.svg)](https://asciinema.org/a/fj1ZnVthJxpz3Thdbbiierj3v)
 
+✓ <i>"Калькулятор"</i>
+
+Суть игры в следующем: пользователю показывается случайное математическое выражение, например 35 + 16, которое нужно вычислить и записать правильный ответ.
+
+[![asciicast](https://asciinema.org/a/aKbZhusZua9Tu1QO30jvDAbEL.svg)](https://asciinema.org/a/aKbZhusZua9Tu1QO30jvDAbEL)
+
 
