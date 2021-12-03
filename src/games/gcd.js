@@ -26,4 +26,4 @@ const brainGreatestCommonDivisiorGame = () => {
   gameLogic(rules, getQuestionAndAnswer);
 };
 
-export default brainGreatestCommonDivisiorGame;;
+export default brainGreatestCommonDivisiorGame;
