@@ -22,26 +22,26 @@
  
 Игры:
 
-✓ <i>"Проверка на чётность"</i>
+✓ <b><i>"Проверка на чётность"</i></b>
 
 Суть игры в следующем: пользователю показывается случайное число. Необходимо ответить <i>yes</i>, если число чётное, или <i>no</i> — если нечётное:
 
 [![asciicast](https://asciinema.org/a/fj1ZnVthJxpz3Thdbbiierj3v.svg)](https://asciinema.org/a/fj1ZnVthJxpz3Thdbbiierj3v)
 
-✓ <i>"Калькулятор"</i>
+✓ <b><i>"Калькулятор"</i></b>
 
 Суть игры в следующем: пользователю показывается случайное математическое выражение, например 35 + 16, которое нужно вычислить и записать правильный ответ.
 
 [![asciicast](https://asciinema.org/a/aKbZhusZua9Tu1QO30jvDAbEL.svg)](https://asciinema.org/a/aKbZhusZua9Tu1QO30jvDAbEL)
 
-✓ <i>"Наибольший общий делитель (НОД)"</i>
+✓ <b><i>"Наибольший общий делитель (НОД)"</i></b>
 
  Суть игры в следующем: пользователю показывается два случайных числа, например, 25 50. Пользователь должен вычислить и ввести наибольший общий делитель этих чисел.
 
 [![asciicast](https://asciinema.org/a/SGvl4Hf6EfFFyfxSrHAFB3bKX.svg)](https://asciinema.org/a/SGvl4Hf6EfFFyfxSrHAFB3bKX)
 
 
-✓ <i>"Арифметическая прогрессия"</i>
+✓ <b><i>"Арифметическая прогрессия"</i></b>
 
 Показываем игроку ряд чисел, образующий арифметическую прогрессию, заменив любое из чисел двумя точками. Игрок должен определить это число.
 
@@ -49,3 +49,9 @@
 Позиция спрятанного элемента каждый раз изменяется (выбирается случайным образом).
 
 [![asciicast](https://asciinema.org/a/agLQxXoxHsfVtKYFjVlBsaFUc.svg)](https://asciinema.org/a/agLQxXoxHsfVtKYFjVlBsaFUc)
+
+✓ <b><i>"Простое число"</i></b>
+
+Cуть игры в следующем: пользователю показывается число и он должен выбрать, является оно простым или нет.
+
+[![asciicast](https://asciinema.org/a/lPyeFHZa91fLkazj2cAYDwcc5.svg)](https://asciinema.org/a/lPyeFHZa91fLkazj2cAYDwcc5)
