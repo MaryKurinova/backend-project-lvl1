@@ -1,5 +1,5 @@
 import { gameLogic } from '../index.js';
-import RandomNumber from '../random-number.js';
+import getRandomNumber from '../random-number.js';
 
 const rules = 'Find the greatest common divisor of given numbers.';
 
@@ -13,9 +13,9 @@ const getGreatestCommonDivisior = (a, b) => {
   return 1;
 };
 
-const getQuestionAndAnswer = () => {
-  const randomA = RandomNumber();
-  const randomB = RandomNumber();
+const getGameData = () => {
+  const randomA = getRandomNumber();
+  const randomB = getRandomNumber();
   const question = `${randomA} ${randomB}`;
   const answer = String(getGreatestCommonDivisior(randomA, randomB));
 
@@ -23,7 +23,7 @@ const getQuestionAndAnswer = () => {
 };
 
 const brainGreatestCommonDivisiorGame = () => {
-  gameLogic(rules, getQuestionAndAnswer);
+  gameLogic(rules, getGameData);
 };
 
 export default brainGreatestCommonDivisiorGame;

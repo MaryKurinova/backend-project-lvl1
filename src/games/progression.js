@@ -1,5 +1,5 @@
 import { gameLogic } from '../index.js';
-import RandomNumber from '../random-number.js';
+import getRandomNumber from '../random-number.js';
 
 const rules = 'What number is missing in the progression?';
 const progressionLength = 10;
@@ -21,15 +21,15 @@ const getStringWithHiddenElementFromArray = (arr, index) => {
   return result.join(' ');
 };
 
-const getQuestionAndAnswer = () => {
-  const progressionStart = RandomNumber();
-  const progressionStep = RandomNumber(1, 10);
+const getGameData = () => {
+  const progressionStart = getRandomNumber();
+  const progressionStep = getRandomNumber(1, 10);
   const progression = getArithmeticProgression(
     progressionStart,
     progressionStep,
     progressionLength,
   );
-  const hiddenElementIndex = RandomNumber(0, progressionLength - 1);
+  const hiddenElementIndex = getRandomNumber(0, progressionLength - 1);
 
   const question = getStringWithHiddenElementFromArray(
     progression,
@@ -41,7 +41,7 @@ const getQuestionAndAnswer = () => {
 };
 
 const brainProgression = () => {
-  gameLogic(rules, getQuestionAndAnswer);
+  gameLogic(rules, getGameData);
 };
 
 export default brainProgression;
