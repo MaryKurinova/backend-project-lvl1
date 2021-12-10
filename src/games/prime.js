@@ -9,7 +9,7 @@ const isPrime = (num) => {
   }
 
   const maxDivisor = num / 2;
-  for (let i = 2; i <= maxDivisor / 2; i += 1) {
+  for (let i = 2; i <= maxDivisor; i += 1) {
     if (num % 1 === 0) {
       return false;
     }
